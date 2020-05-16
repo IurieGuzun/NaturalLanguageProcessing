@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import SwifteriOS
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var sentimentLabel: UILabel!
+    
+    let swifter = Swifter(consumerKey: "", consumerSecret: "")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func predictPressed(_ sender: Any) {
+        // do the job
     }
     
 }
