@@ -59,7 +59,19 @@ class ViewController: UIViewController {
                    }
                    print("sentimentScore = ",sentimentScore)
                 if sentimentScore > 20 {
-                    sentimentLabel.text = ""
+                    self.sentimentLabel.text = "😍"
+                } else if sentimentScore > 10 {
+                    self.sentimentLabel.text = "😀"
+                } else if sentimentScore > 0 {
+                     self.sentimentLabel.text = "🙂"
+                } else if sentimentScore == 0 {
+                    self.sentimentLabel.text = "😐"
+                } else if sentimentScore > -10 {
+                    self.sentimentLabel.text = "😕"
+                } else if sentimentScore > -20 {
+                    self.sentimentLabel.text = "😡"
+                } else  {
+                  self.sentimentLabel.text = "😢"
                 }
                    
                } catch {
