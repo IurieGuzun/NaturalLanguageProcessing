@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iGSrar" translatesAutoresizingMaskIntoConstraints="NO" id="4CN-B1-PNT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iGuzunSrar" translatesAutoresizingMaskIntoConstraints="NO" id="4CN-B1-PNT">
                                 <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="sOm-xF-5bn"/>
@@ -37,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iGSrar" width="612" height="792"/>
+        <image name="iGuzunSrar" width="1000" height="1000"/>
     </resources>
 </document>
